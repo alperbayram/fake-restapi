@@ -1,14 +1,6 @@
 {
   "employees": [
     {
-      "id": 1,
-      "first_name": "Trixy",
-      "last_name": "Wisher",
-      "email": "twisher0@barnesandnoble.com",
-      "gender": "Male",
-      "roleId": 4
-    },
-    {
       "id": 2,
       "first_name": "Gerry",
       "last_name": "Jeary",
@@ -799,25 +791,40 @@
       "email": "aingledew2r@php.net",
       "gender": "Female",
       "roleId": 3
+    },
+    {
+      "first_name": "Alper",
+      "last_name": "BAYRAM",
+      "email": "aaa@a.com",
+      "gender": "Male",
+      "roleId": 3,
+      "id": 101
+    },
+    {
+      "first_name": "aylin",
+      "last_name": "aylin",
+      "email": "bbaa@a.com",
+      "gender": "female",
+      "roleId": 1,
+      "id": 102
     }
   ],
-
-  "roles": [{
-      "id":1,
-      "name":"Manager"
-  },
-  {
-        "id":2,
-        "name":"Engineer"
-  },
-  {
-      "id":3,
-      "name":"Intern"
-  },
-  {
-      "id":4,
-      "name":"Doctor"
-  }
-
-]
+  "roles": [
+    {
+      "id": 1,
+      "name": "Manager"
+    },
+    {
+      "id": 2,
+      "name": "Engineer"
+    },
+    {
+      "id": 3,
+      "name": "Intern"
+    },
+    {
+      "id": 4,
+      "name": "Doctor"
+    }
+  ]
 }
